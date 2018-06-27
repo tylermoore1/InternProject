@@ -213,7 +213,7 @@ int main() {
     // set up logging
     string log_file = "../data/logger2.csv";
     ofstream out_log(log_file.c_str(), ofstream::out);
-    out_log << "t,x,y,s,d,yaw, speed" << endl;
+    out_log << "t,x,y,s,d,yaw,speed" << endl;
     
     // Start in lane 1
     int lane = 1;
